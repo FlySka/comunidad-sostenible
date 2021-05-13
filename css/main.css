@@ -2,7 +2,15 @@
 
 * {
     /* para dar el cuadriculado */
-    /* outline: 1px dotted yellowgreen;
-        margin: 0px;
-        padding: 0px; */
+    outline: 1px dotted yellowgreen;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+.text-navbar{
+    color: #9A9EA7;
+}
+.pt-2-5{
+    padding-top: 2.5rem!important;
 }
