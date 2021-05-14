@@ -1,5 +1,4 @@
 /* Inserta tu codigo aqui */
-
 * {
     /* para dar el cuadriculado */
     outline: 1px dotted yellowgreen;
@@ -7,10 +6,46 @@
     padding: 0px;
 }
 
+/* general */
+.centrador {
+    text-align: center;
+}
+.centro-vertical{
+    vertical-align: middle;
+}
+
 /* navbar */
-.text-navbar{
+.text-navbar {
     color: #9A9EA7;
 }
-.pt-2-5{
+.pt-2-5 {
     padding-top: 2.5rem!important;
+}
+
+/* nosotros */
+#img-nosotros {
+    background-image: url("../img/semilla.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
+/* metodologia */
+#img-metodologia {
+    background-image: url("../img/metodo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+#img-metodologia-fondo {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+.pt-20 {
+	padding-top: 20%;
 }
