@@ -1,9 +1,9 @@
 /* Inserta tu codigo aqui */
 * {
     /* para dar el cuadriculado */
-    outline: 1px dotted yellowgreen;
+    /* outline: 1px dotted yellowgreen;
     margin: 0px;
-    padding: 0px;
+    padding: 0px; */
 }
 
 /* general */
@@ -12,6 +12,12 @@
 }
 .centro-vertical{
     vertical-align: middle;
+}
+.pt-20 {
+	padding-top: 20%;
+}
+p{
+    font-size: calc(0.5rem + 0.5vw);
 }
 
 /* navbar */
@@ -46,6 +52,8 @@
     background-position: center;
     min-height: 500px;
 }
-.pt-20 {
-	padding-top: 20%;
+
+/* proyectos */
+.img-proyecto{
+    padding-left: 2.5rem!important;;
 }
